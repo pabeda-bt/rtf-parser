@@ -4,10 +4,12 @@
   "description": "This is a general RTF parser.  It takes a text stream and produces a document object representing the parsed document.  In and of itself, this isn't super useful but it's the building block for other tools to convert RTF into other formats.",
   "main": "src/index.js",
   "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
     "iconv-lite": "^0.4.15",
     "readable-stream": "^2.2.2"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "standard": "^8.6.0",
     "tap": "^9.0.3"
   },
