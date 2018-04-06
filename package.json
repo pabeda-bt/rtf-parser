@@ -2,7 +2,7 @@
   "name": "rtf-parser",
   "version": "1.1.0",
   "description": "This is a general RTF parser.  It takes a text stream and produces a document object representing the parsed document.  In and of itself, this isn't super useful but it's the building block for other tools to convert RTF into other formats.",
-  "main": "index.js",
+  "main": "src/index.js",
   "dependencies": {
     "iconv-lite": "^0.4.15",
     "readable-stream": "^2.2.2"
